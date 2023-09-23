@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import Foto from "../assets/im1.webp";
+import { IconZap } from "@/assets/Icons";
 export function SobreEscritorio() {
   return (
-    <div className="max-w-6xl mx-auto grid grid-cols-2 items-center gap-32 py-24">
-      <div className="flex flex-col gap-4 w-[80%] items-start">
+    <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24">
+      <div className="flex flex-col gap-4 md:w-[80%] items-center md:items-start ">
         <h2 className="text-3xl font-bold">Sobre o escritório</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iste vel
@@ -29,12 +30,13 @@ export function SobreEscritorio() {
 
         <Link
           href={""}
-          className="bg-black text-white px-20 font-medium rounded-sm py-3"
+          className="bg-black text-white w-full md:w-80 justify-center font-bold rounded-sm py-3 flex items-center gap-2 mt-4"
         >
+          <IconZap/>
           Fale Conosco
         </Link>
       </div>
-      <Image src={Foto} className="rounded-3xl h-full object-cover w-[80%]" />
+      <Image src={Foto} className="rounded-3xl h-full object-cover md:w-[80%]" />
     </div>
   );
 }

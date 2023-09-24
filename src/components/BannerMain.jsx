@@ -5,7 +5,7 @@ export function BannerMain() {
     <div className="bg-[url('/im4.webp')] bg-top bg-no-repeat bg-cover">
       <div className="bg-white/70">
         <div className="max-w-6xl mx-auto pt-32 px-4 pb-44 grid md:grid-cols-2 items-center">
-          <div className="space-y-8">
+          <div className="space-y-8" data-aos="fade-right">
             <h2 className="text-xl sm:text-3xl font-bold">
               GONÇALVES & CORDEIRO GUATIMOSIM – ADVOGADOS ASSOCIADOS
             </h2>

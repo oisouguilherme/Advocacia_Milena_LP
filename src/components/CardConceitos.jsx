@@ -3,8 +3,8 @@ import { IconBank } from "@/assets/Icons";
 export function CardConceitos() {
   return (
     <div className="bg-black text-white p-8 max-w-4xl rounded-lg flex flex-col md:flex-row gap-12 mx-auto -mt-20 relative">
-      <div className="space-y-2">
-        <div className="flex gap-2 text-xl font-bold items-center">
+      <div className="space-y-2" data-aos="flip-up">
+        <div className="flex gap-2 text-xl font-bold items-center" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
@@ -23,7 +23,7 @@ export function CardConceitos() {
           direitos com paixão e determinação.
         </p>
       </div>
-      <div className="space-y-2">
+      <div className="space-y-2" data-aos="flip-up">
         <div className="flex gap-2 text-xl font-bold items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export function CardConceitos() {
           qualidade, baseados em conhecimento sólido e atualizado.
         </p>
       </div>
-      <div className="space-y-2">
+      <div className="space-y-2" data-aos="flip-up">
         <div className="flex gap-2 text-xl font-bold items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

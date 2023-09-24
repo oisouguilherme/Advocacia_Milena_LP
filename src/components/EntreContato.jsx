@@ -4,11 +4,12 @@ export function EntreContato() {
   return (
     <div className="bg-black text-white">
       <div className="max-w-6xl mx-auto py-32 px-4 text-center">
-        <div className="max-w-md mx-auto space-y-3">
+        <div className="max-w-2xl mx-auto space-y-3">
           <h2 className="text-4xl font-bold">Entre em Contato</h2>
           <p className="sm:text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-            alias placeat beatae quam sed quod!
+            Não hesite em nos contatar. Estamos aqui para ouvir você e oferecer
+            orientação legal especializada. Sua jornada em busca da justiça
+            começa com um simples contato.
           </p>
         </div>
         <div className="flex flex-col sm:flex-row justify-around gap-4 pt-16 px-8">

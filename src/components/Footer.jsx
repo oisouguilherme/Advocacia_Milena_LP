@@ -17,11 +17,13 @@ export function Footer() {
           <div className="flex flex-col gap-3">
             <h2 className="font-bold">Serviços</h2>
             <ul className="text-sm">
-              <li>Tipo de Serviço</li>
-              <li>Tipo de Serviço</li>
-              <li>Tipo de Serviço</li>
-              <li>Tipo de Serviço</li>
-              <li>Tipo de Serviço</li>
+              <li>Cível</li>
+              <li>Trabalhista</li>
+              <li>Previdenciário</li>
+              <li>Direiro Administrativo</li>
+              <li>Direiro do Consumidor</li>
+              <li>Direiro Imobiliario</li>
+              <li>Direiro Tributário</li>
             </ul>
           </div>
         </div>

@@ -27,8 +27,8 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="bg-black/80 text-violet-600 text-sm text-center py-1 font-bold">
-          <p>Desenvolvido por DevMILITÃO 2023</p>
+        <div className="bg-black/10 text-violet-600 text-xs text-center pb-1 font-bold font-sans">
+          <a href="https://guilherme-portfolio-frontend.netlify.app/" target="_blank">Desenvolvido por DevMILITÃO 2023</a>
         </div>
       </div>
     </div>

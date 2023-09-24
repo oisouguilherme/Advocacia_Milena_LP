@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Foto from "../assets/im1.webp";
+import Foto from "../assets/sobreEscritorio.jpg";
+
 import { IconZap } from "@/assets/Icons";
 export function SobreEscritorio() {
   return (

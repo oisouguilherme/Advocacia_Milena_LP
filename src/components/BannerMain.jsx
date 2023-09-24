@@ -17,7 +17,7 @@ export function BannerMain() {
             </p>
             <div className="flex flex-wrap gap-8 text-lg">
               <Link
-                className="bg-black hover:bg-black/80 duration-300 text-white w-56 text-center py-3 rounded-lg font-bold flex items-center gap-4 justify-center"
+                className="bg-black hover:bg-black/80 duration-300 text-white w-56 text-center py-3 rounded-sm font-bold flex items-center gap-4 justify-center"
                 href={""}
               >
                 <svg
@@ -33,7 +33,7 @@ export function BannerMain() {
                 Fale Conosco
               </Link>
               <Link
-                className="border-2 bg-white/80 border-black text-black w-56 text-center py-3 rounded-lg font-bold"
+                className="border-2 bg-white/80 border-black text-black w-56 text-center py-3 rounded-sm font-bold"
                 href={""}
               >
                 Área de Atuação

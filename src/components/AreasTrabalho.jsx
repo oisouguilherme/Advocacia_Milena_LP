@@ -1,9 +1,12 @@
 import { CardArea } from "./CardArea";
-import Foto1 from "../assets/im1.webp";
-import Foto from "../assets/im4.webp";
-import Foto2 from "../assets/im5.webp";
-import Foto3 from "../assets/im6.webp";
-import Foto4 from "../assets/im7.webp";
+
+import Civil from '../assets/areas/civil.webp'
+import Trabalhista from '../assets/areas/trabalhista.webp'
+import Previdencia from '../assets/areas/previdencia.webp'
+import Administrativo from '../assets/areas/administrativo.webp'
+import Consumidor from '../assets/areas/consumidor.jpg'
+import Imobiliario from '../assets/areas/imovel.webp'
+import Tributario from '../assets/areas/tributario.webp'
 
 export function AreasTrabalho() {
   return (
@@ -14,7 +17,7 @@ export function AreasTrabalho() {
         Na Gonçalves & Cordeiro Guatimosim, somos apaixonados por justiça e <br /> dedicados a uma ampla gama de áreas legais.
         </p>
         <div className="space-y-8 pt-12 px-4">
-          <CardArea img={Foto} title={"CONTENCIOSO CÍVEL"}>
+          <CardArea img={Civil} title={"CONTENCIOSO CÍVEL"}>
             <li>
               Trabalhos jurídicos especializados em todos e quaisquer assuntos
               envolvendo o direito civil, tais como a elaboração e discussão
@@ -22,7 +25,7 @@ export function AreasTrabalho() {
               propriedade de bens móveis e imóveis, inventários, etc.
             </li>
           </CardArea>
-          <CardArea img={Foto2} title={"CONTENCIOSO TRABALHISTA"}>
+          <CardArea img={Trabalhista} title={"CONTENCIOSO TRABALHISTA"}>
             <li>
               Assessoria a empresas e empregadores no que tange ao atendimento
               dos deveres trabalhistas de seus funcionários e colaboradores, bem
@@ -38,7 +41,7 @@ export function AreasTrabalho() {
               coletivos, etc.
             </li>
           </CardArea>
-          <CardArea img={Foto3} title={"CONTENCIOSO PREVIDENCIÁRIO "}>
+          <CardArea img={Previdencia} title={"CONTENCIOSO PREVIDENCIÁRIO "}>
             <li>
               Assessoria a empresas e empregadores no que tange ao atendimento
               dos deveres trabalhistas de seus funcionários e colaboradores, bem
@@ -54,7 +57,7 @@ export function AreasTrabalho() {
               coletivos, etc.
             </li>
           </CardArea>
-          <CardArea img={Foto4} title={"CONTENCIOSO E DIREITO ADMINISTRATIVO "}>
+          <CardArea img={Administrativo} title={"CONTENCIOSO E DIREITO ADMINISTRATIVO "}>
             <li>
               Atuação em defesa dos direitos de servidores públicos municipais,
               estaduais e federais, seja no âmbito administrativo ou judicial,
@@ -67,7 +70,7 @@ export function AreasTrabalho() {
               envolvendo imputação de ilícitos administrativos praticados, etc.
             </li>
           </CardArea>
-          <CardArea img={Foto1} title={"CONTENCIOSO E DIREITO DO CONSUMIDOR "}>
+          <CardArea img={Consumidor} title={"CONTENCIOSO E DIREITO DO CONSUMIDOR "}>
             <li>
               O Escritório está apto para assessorar e defender juridicamente
               nos órgãos administrativos ou judiciais onde se discutam o direito
@@ -76,14 +79,14 @@ export function AreasTrabalho() {
               alguma forma precisar fazer valer seu direito;
             </li>
           </CardArea>
-          <CardArea img={Foto1} title={"CONTENCIOSO E DIREITO IMOBILIARIO "}>
+          <CardArea img={Imobiliario} title={"CONTENCIOSO E DIREITO IMOBILIARIO "}>
             <li>
               Assessoria em elaboração de contratos imobiliários de compra e
               venda e locação de imóveis, atuação em áreas envolvendo discussões
               de aluguéis, despejos, revisão de valores, etc.
             </li>
           </CardArea>
-          <CardArea img={Foto1} title={"CONTENCIOSO E  DIREITO TRIBUTÁRIO "}>
+          <CardArea img={Tributario} title={"CONTENCIOSO E  DIREITO TRIBUTÁRIO "}>
             <li>
               Atuação ampla no espectro do direito tributário, seja no âmbito
               municipal (IPTU/ISS), sno àmbito estadual (ICMS/ITCMD/IPVA), ou no

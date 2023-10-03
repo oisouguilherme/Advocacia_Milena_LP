@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function FicouComDuvida() {
   return (
-    <div >
+    <div className="bg-[url('/im6.webp')] bg-center bg-no-repeat bg-cover">
       <div className="bg-white/60 py-32 px-4">
         <div className="max-w-xl mx-auto text-center flex flex-col items-center">
           <svg

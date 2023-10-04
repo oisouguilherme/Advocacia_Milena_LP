@@ -26,10 +26,10 @@ export function NossaEquipe() {
                 <p className="text-sm">Advogada Trabalhista</p>
               </div>
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-90 flex gap-4 flex-col justify-start items-start text-white transition-opacity p-4">
-                <p className="font-bold text-lg">
+                <p className="font-bold text-lg text-center">
                   Milena Gonçalvez de Oliveira
                 </p>
-                <p className="">
+                <p className="text-center">
                   Advogada, formada pela Universidade FUMEC de Belo
                   Horizonte-MG, especialista em questões envolvendo direito
                   trabalhista, previdenciário e tributário.
@@ -51,10 +51,10 @@ export function NossaEquipe() {
                 <p className="text-sm">Advogada</p>
               </div>
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-90 flex gap-4 flex-col justify-start items-start text-white transition-opacity p-4">
-                <p className="font-bold  text-lg">
+                <p className="font-bold  text-lg text-center">
                   Paula Soares Cordeiro Guatimosim
                 </p>
-                <p className="">
+                <p className="text-center">
                   Advogada, formada pela Universidade FUMEC de Belo
                   Horizonte-MG, especialista em questões
                   envolvendo......................
@@ -72,14 +72,14 @@ export function NossaEquipe() {
               />
 
               <div className="text-center py-2 text-lg absolute bottom-0 bg-black/90 w-full text-white">
-                <p className=" font-bold">Marcus Vinícius</p>
+                <p className=" font-bold text-center">Marcus Vinícius</p>
                 <p className="text-sm">Especialista em Direito Tributário</p>
               </div>
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-90 flex gap-4 flex-col justify-start items-start text-white transition-opacity p-4">
                 <p className="font-bold text-lg">
                   Marcus Vinícius Bolpato da Silva
                 </p>
-                <p className="text-sm">
+                <p className="text-sm text-center">
                   Bacharel em direito pela Faculdade de Juiz de Fora.
                   Especialista em Direito Tributário pela PUC/MG. Ex-servidor do
                   fisco de MG, tendo ocupado por 35 anos o cargo de Gestor do

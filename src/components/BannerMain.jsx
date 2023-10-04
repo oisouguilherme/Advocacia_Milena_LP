@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export function BannerMain() {
   return (
-    <div className="bg-[url('/im4.webp')] bg-top bg-no-repeat bg-cover">
+    <div>
       <div className="bg-white/70">
         <div className="max-w-6xl mx-auto pt-32 px-4 pb-44 grid md:grid-cols-2 items-center">
           <div className="space-y-8" data-aos="fade-right">
-            <h2 className="text-xl sm:text-3xl font-bold">
+            <h2 className="text-xl text-[#3f3f3f] sm:text-3xl font-bold">
               GONÇALVES & CORDEIRO GUATIMOSIM – ADVOGADOS ASSOCIADOS
             </h2>
             <p className="sm:w-[90%] italic">
@@ -17,7 +17,7 @@ export function BannerMain() {
             </p>
             <div className="flex flex-wrap gap-8 text-lg">
               <Link
-                className="bg-black hover:bg-black/80 duration-300 text-white w-56 text-center py-3 rounded-sm font-bold flex items-center gap-4 justify-center"
+                className="bg-black hover:bg-black/80 duration-300 text-[#f0f0f0] w-56 text-center py-3 rounded-sm font-bold flex items-center gap-4 justify-center"
                 href={""}
               >
                 <svg
@@ -33,7 +33,7 @@ export function BannerMain() {
                 Fale Conosco
               </Link>
               <Link
-                className="border-2 bg-white/80 border-black text-black w-56 text-center py-3 rounded-sm font-bold"
+                className="border-2 bg-[#f0f0f0]/80 border-black text-black w-56 text-center py-3 rounded-sm font-bold"
                 href={""}
               >
                 Área de Atuação

@@ -1,10 +1,12 @@
+import Image from "next/image";
+import Logo from "../assets/logoFooter.png";
 export function Footer() {
   return (
     <div className="bg-[url('/bgBlack.jpg')] bg-top bg-no-repeat bg-cover">
       <div className="bg-black/80 text-white">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row gap-4 sm:gap-12 items-start justify-around py-24 px-4">
           <div className="flex flex-col items-center gap-3">
-            <h2 className="text-4xl font-medium">LOGO</h2>
+            <Image src={Logo} className="w-64" />
             <p className="text-sm">CNPJ: 1221212121-121</p>
           </div>
           <div className="flex flex-col gap-3 sm:w-80">
@@ -28,7 +30,12 @@ export function Footer() {
           </div>
         </div>
         <div className="bg-black/10 text-violet-600 text-xs text-center pb-1 font-bold font-sans">
-          <a href="https://guilherme-portfolio-frontend.netlify.app/" target="_blank">Desenvolvido por DevMILITÃO 2023</a>
+          <a
+            href="https://guilherme-portfolio-frontend.netlify.app/"
+            target="_blank"
+          >
+            Desenvolvido por DevMILITÃO 2023
+          </a>
         </div>
       </div>
     </div>

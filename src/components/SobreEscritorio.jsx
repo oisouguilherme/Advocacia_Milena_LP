@@ -5,7 +5,7 @@ import Foto from "../assets/sobreEscritorio.jpg";
 import { IconZap } from "@/assets/Icons";
 export function SobreEscritorio() {
   return (
-    <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24">
+    <div id="SobreNos" className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24">
       <div className="flex flex-col gap-2 md:w-[80%] items-center md:items-start" data-aos="fade-down">
         <h2 className="text-3xl font-bold">Sobre o escritório</h2>
         <p>

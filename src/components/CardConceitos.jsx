@@ -2,7 +2,7 @@ import { IconBank } from "@/assets/Icons";
 
 export function CardConceitos() {
   return (
-    <div className="bg-black text-white p-8 max-w-4xl rounded-lg flex flex-col md:flex-row gap-12 mx-auto -mt-20 relative">
+    <div className="bg-[#3f3f3f] text-[#f0f0f0] p-8 max-w-4xl rounded-lg flex flex-col md:flex-row gap-12 mx-auto -mt-20 relative">
       <div className="space-y-2" data-aos="flip-up">
         <div className="flex gap-2 text-xl font-bold items-center" >
           <svg

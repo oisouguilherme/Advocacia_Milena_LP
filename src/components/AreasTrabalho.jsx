@@ -10,7 +10,7 @@ import Tributario from '../assets/areas/tributario.webp'
 
 export function AreasTrabalho() {
   return (
-    <div className="bg-black text-white">
+    <div id="AreaAtua" className="bg-black text-white">
       <div className="max-w-6xl mx-auto text-center py-24">
         <h2 className="text-3xl font-bold pb-2 px-4">Áreas de Atuação</h2>
         <p>

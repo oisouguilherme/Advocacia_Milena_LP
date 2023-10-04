@@ -10,6 +10,7 @@ import { NossaEquipe } from "@/components/NossaEquipe";
 import { SobreEscritorio } from "@/components/SobreEscritorio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Head from "next/head";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <>
+      
       <div className="bg-[url('/im4.webp')] bg-top bg-no-repeat bg-cover">
         <Header />
         <BannerMain />

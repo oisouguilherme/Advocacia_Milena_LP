@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <section id="Nav" className="z-50 py-4 px-4 bg-white/90">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <div className="max-w-6xl mx-auto flex justify-between gap-4 items-center">
         <div className="cursor-pointer w-64 sm:w-80">
           <a href="/">
             <Image src={Logo} alt="Logo Goistore" />

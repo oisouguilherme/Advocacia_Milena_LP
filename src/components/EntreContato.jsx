@@ -2,7 +2,7 @@ import { IconEmail, IconHora, IconTel, IconZap } from "@/assets/Icons";
 
 export function EntreContato() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-azul text-bege">
       <div className="max-w-6xl mx-auto py-32 px-4 text-center">
         <div className="max-w-2xl mx-auto space-y-3">
           <h2 className="text-4xl font-bold">Entre em Contato</h2>

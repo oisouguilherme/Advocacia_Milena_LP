@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function FicouComDuvida() {
   return (
-    <div className="bg-[url('/im6.webp')] bg-center bg-no-repeat bg-cover">
-      <div className="bg-white/60 py-32 px-4">
+    <div className="bg-[url('/bg.jpg')] bg-center bg-no-repeat bg-cover">
+      <div className="bg-bege/90 py-32 px-4">
         <div className="max-w-xl mx-auto text-center flex flex-col items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -15,15 +15,15 @@ export function FicouComDuvida() {
           >
             <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
           </svg>
-          <h2 className="text-4xl font-bold">Ficou alguma dúvida?</h2>
-          <p className="py-6 sm:text-lg">
+          <h2 className="text-4xl font-bold text-zinc-900">Ficou alguma dúvida?</h2>
+          <p className="py-6 sm:text-lg text-zinc-800">
             Estamos aqui para esclarecer todas as suas dúvidas. Sua busca por
             justiça começa aqui, e estamos prontos para guiá-lo em cada passo do
             caminho
           </p>
           <Link
             href={""}
-            className="bg-black hover:bg-black/80 duration-300 w-full sm:w-80 py-3 rounded-sm font-bold text-white flex justify-center items-center gap-2"
+            className="bg-azul hover:bg-azul/95 duration-300 w-full sm:w-80 py-3 rounded-sm font-bold text-white flex justify-center items-center gap-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

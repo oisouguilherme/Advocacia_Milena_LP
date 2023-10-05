@@ -5,9 +5,15 @@ import Foto from "../assets/sobreEscritorio.jpg";
 import { IconZap } from "@/assets/Icons";
 export function SobreEscritorio() {
   return (
-    <div id="SobreNos" className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24">
-      <div className="flex flex-col gap-2 md:w-[80%] items-center md:items-start" data-aos="fade-down">
-        <h2 className="text-3xl font-bold">Sobre o escritório</h2>
+    <div
+      id="SobreNos"
+      className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24"
+    >
+      <div
+        className="flex flex-col gap-2 md:w-[80%] items-center md:items-start text-zinc-900"
+        data-aos="fade-down"
+      >
+        <h2 className="text-3xl font-bold text-azul">Sobre o escritório</h2>
         <p>
           O Escritório Gonçalves & Cordeiro Guatimosim, é um escritório de
           advocacia especializado, com sede na Capital de MG, e com atuação em
@@ -28,7 +34,7 @@ export function SobreEscritorio() {
 
         <Link
           href={""}
-          className="bg-black hover:bg-black/80 duration-300 text-white w-full md:w-80 justify-center font-bold rounded-sm py-3 flex items-center gap-2 mt-4"
+          className="bg-azul hover:bg-azul/95 duration-300 text-white w-full md:w-80 justify-center font-bold rounded-sm py-3 flex items-center gap-2 mt-4"
         >
           <IconZap />
           Fale Conosco

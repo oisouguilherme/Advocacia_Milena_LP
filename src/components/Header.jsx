@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/lgAzul.png";
 
 import { useState } from "react";
 import { Link } from "react-scroll";
@@ -12,9 +12,9 @@ export default function Header() {
   };
 
   return (
-    <section id="Nav" className="z-50 py-4 px-4 bg-white/70">
+    <section id="Nav" className="z-50 py-4 px-4 bg-white/90">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="cursor-pointer w-44">
+        <div className="cursor-pointer w-80">
           <a href="/">
             <Image src={Logo} alt="Logo Goistore" />
           </a>
@@ -54,21 +54,21 @@ export default function Header() {
           </div>
         </div>
         <div className="hidden lg:block">
-          <ul className="flex space-x-12 font-bold text-center items-center text-lx">
-            <li className="cursor-pointer text-[#3f3f3f] hover:text-[#1a4b76] duration-300">
-            <a href="/">Página Inicial</a>
+          <ul className="flex space-x-12 font-bold text-center items-center text-lg">
+            <li className="cursor-pointer text-azul duration-300">
+              <a href="/">Página Inicial</a>
             </li>
-            <li className="cursor-pointer text-[#3f3f3f] hover:text-[#1a4b76] duration-300">
+            <li className="cursor-pointer text-azul duration-300">
               <Link to="SobreNos" spy={true} smooth={true}>
                 Sobre Nós
               </Link>
             </li>
-            <li className="cursor-pointer text-[#3f3f3f] hover:text-[#1a4b76] duration-300">
+            <li className="cursor-pointer text-azul duration-300">
               <Link to="AreaAtua" spy={true} smooth={true}>
                 Áreas de Atuação
               </Link>
             </li>
-            <li className="cursor-pointer text-[#3f3f3f] hover:text-[#1a4b76] duration-300">
+            <li className="cursor-pointer text-azul duration-300">
               <Link to="Loc" spy={true} smooth={true}>
                 Localização
               </Link>

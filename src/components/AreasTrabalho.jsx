@@ -44,18 +44,15 @@ export function AreasTrabalho() {
           </CardArea>
           <CardArea img={Previdencia} title={"CONTENCIOSO PREVIDENCIÁRIO "}>
             <li>
-              Assessoria a empresas e empregadores no que tange ao atendimento
-              dos deveres trabalhistas de seus funcionários e colaboradores, bem
-              como sua defesa em contenciosos judiciais envolvendo discussões
-              empregados x empregador;
+              Assessoria jurídica envolvendo a discussão de direitos dos
+              segurados (ou não) do INSS, no que se refere aos seus legítimos
+              direitos de aposentação, ou revisão de aposentadorias já
+              concedidas;
             </li>
             <li>
-              Atuação em reclamações trabalhistas envolvendo direitos do
-              trabalhador perante os empregadores em geral;
-            </li>
-            <li>
-              Atuação em negociações envolvendo negociações e dissídios
-              coletivos, etc.
+              Concessão de benefícios previdenciários legalmente previstos, tais
+              como: BPC (Benefício de Prestação Continuada), Auxílio-doença,
+              pensão alimentícia, etc.
             </li>
           </CardArea>
           <CardArea

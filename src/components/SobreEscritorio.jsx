@@ -16,8 +16,8 @@ export function SobreEscritorio() {
         <h2 className="text-3xl font-bold text-azul">Sobre o escritório</h2>
         <p>
           O Escritório Gonçalves & Cordeiro Guatimosim, é um escritório de
-          advocacia especializado, com sede na Capital de MG, e com atuação em
-          todo território nacional.
+          advocacia especializado, com sede na Capital de Minas Gerais, e com
+          atuação em todo território nacional.
         </p>
         <p>
           Trazemos em nosso modo de trabalhar a luta incansável pelo direito e

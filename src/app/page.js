@@ -33,7 +33,7 @@ export default function Home() {
       {/* <NossaEquipe /> */}
       <FicouComDuvida />
       <EntreContato />
-      <iframe id="Loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10712.112532266994!2d-46.432811267311905!3d-15.624140264145007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9356b3462ad43f17%3A0x4cb79de38c68a5ec!2sBuritis%2C%20MG%2C%2038660-000!5e0!3m2!1spt-BR!2sbr!4v1695485316232!5m2!1spt-BR!2sbr" width="100%" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.244835176682!2d-43.94248345824528!3d-19.974011580542385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa698047a256163%3A0xe6c905411d7e253c!2sR.%20da%20Vereda%2C%2050%20-%20Vila%20da%20Serra%2C%20Nova%20Lima%20-%20MG%2C%2034006-077!5e0!3m2!1spt-BR!2sbr!4v1697228828509!5m2!1spt-BR!2sbr" width="100%" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <Footer />
     </div>
   )

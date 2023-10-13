@@ -33,7 +33,8 @@ export function SobreEscritorio() {
         </p>
 
         <Link
-          href={""}
+          target="_blank"
+          href={"https://wa.me/5531984780647"}
           className="bg-azul hover:bg-azul/95 duration-300 text-white w-full md:w-80 justify-center font-bold rounded-sm py-3 flex items-center gap-2 mt-4"
         >
           <IconZap />

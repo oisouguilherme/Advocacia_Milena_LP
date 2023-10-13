@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Link as LinkTo } from "react-scroll";
 
 export function BannerMain() {
   return (
@@ -18,7 +19,8 @@ export function BannerMain() {
             <div className="flex flex-wrap gap-8 text-lg">
               <Link
                 className="bg-azul hover:bg-azul/95 duration-300 text-bege w-56 text-center py-3 rounded-sm font-bold flex items-center gap-4 justify-center"
-                href={""}
+                href={"https://wa.me/5531984780647"}
+                target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,12 +34,14 @@ export function BannerMain() {
                 </svg>
                 Fale Conosco
               </Link>
-              <Link
-                className="border-2 bg-bege/80 border-azul text-azul w-56 text-center py-3 rounded-sm font-bold"
-                href={""}
+              <LinkTo
+                className="border-2 bg-bege/80 border-azul text-azul w-56 text-center py-3 rounded-sm font-bold cursor-pointer"
+                to={"AreaAtua"}
+                spy={true}
+                smooth={true}
               >
                 Área de Atuação
-              </Link>
+              </LinkTo>
             </div>
           </div>
         </div>

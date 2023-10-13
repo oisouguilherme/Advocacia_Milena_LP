@@ -22,7 +22,8 @@ export function FicouComDuvida() {
             Para melhor atende-ló entre em contato conosco
           </p>
           <Link
-            href={""}
+            href={"https://wa.me/5531984780647"}
+            target="_blank"
             className="bg-azul hover:bg-azul/95 duration-300 w-full sm:w-80 py-3 rounded-sm font-bold text-white flex justify-center items-center gap-2"
           >
             <svg

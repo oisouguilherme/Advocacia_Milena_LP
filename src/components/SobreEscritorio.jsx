@@ -10,7 +10,7 @@ export function SobreEscritorio() {
       className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 md:gap-32 px-4 py-24"
     >
       <div
-        className="flex flex-col gap-2 md:w-[80%] items-center md:items-start text-zinc-900"
+        className="flex flex-col gap-2 md:w-[80%] items-center md:items-start text-zinc-900 text-justify"
         data-aos="fade-down"
       >
         <h2 className="text-3xl font-bold text-azul">Sobre o escritório</h2>

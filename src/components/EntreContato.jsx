@@ -25,21 +25,21 @@ export function EntreContato() {
               <IconTel />
               <p className="font-bold">Telefone</p>
             </div>
-            <p>(38) 99855-5555</p>
+            <p>(31) 99973-3436</p>
           </div>
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center gap-4 font-medium text-lg">
               <IconZap />
               <p className="font-bold">WhatsApp</p>
             </div>
-            <p>(38) 99855-5555</p>
+            <p>(31)98478-0647</p>
           </div>
           <div className="flex flex-col items-start gap-2">
             <div className="flex items-center gap-4 font-medium text-lg">
               <IconEmail />
               <p className="font-bold">E-mail</p>
             </div>
-            <p>advogado@gmail.com</p>
+            <p>goncalvescordeiroguatimosim@gmail.com</p>
           </div>
         </div>
       </div>

@@ -56,8 +56,9 @@ export function NossaEquipe() {
                 </p>
                 <p className="text-center">
                   Advogada, formada pela Universidade FUMEC de Belo
-                  Horizonte-MG, especialista em questões
-                  envolvendo......................
+                  Horizonte-MG, especialista em questões envolvendo Direito
+                  Civil, Direito empresarial, Direito trabalhista e Direito
+                  Imobiliário.
                 </p>
               </div>
             </div>

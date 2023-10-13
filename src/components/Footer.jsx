@@ -7,25 +7,24 @@ export function Footer() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row gap-4 sm:gap-12 items-start justify-around py-24 px-4">
           <div className="flex flex-col items-center gap-3">
             <Image src={Logo} className="w-64" />
-            <p className="text-sm">CNPJ: 1221212121-121</p>
+            {/* <p className="text-sm">CNPJ: 1221212121-121</p> */}
           </div>
           <div className="flex flex-col gap-3 sm:w-80">
             <h2 className="font-bold">Localização</h2>
             <p className="text-sm">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Officiis, placeat!
+              R. Vereda 50 apto. 504. Vila da Serra. Nova Lima
             </p>
           </div>
           <div className="flex flex-col gap-3">
             <h2 className="font-bold">Serviços</h2>
             <ul className="text-sm">
-              <li>Cível</li>
-              <li>Trabalhista</li>
-              <li>Previdenciário</li>
-              <li>Direiro Administrativo</li>
-              <li>Direiro do Consumidor</li>
-              <li>Direiro Imobiliario</li>
-              <li>Direiro Tributário</li>
+              <li>Direito Cível</li>
+              <li>Direito Trabalhista</li>
+              <li>Direito Previdenciário</li>
+              <li>Direito Administrativo</li>
+              <li>Direito do Consumidor</li>
+              <li>Direito Imobiliário</li>
+              <li>Direito Tributário</li>
             </ul>
           </div>
         </div>

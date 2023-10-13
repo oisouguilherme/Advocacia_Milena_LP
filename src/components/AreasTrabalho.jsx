@@ -13,13 +13,10 @@ export function AreasTrabalho() {
     <div id="AreaAtua" className="bg-azul text-bege">
       <div className="max-w-6xl mx-auto text-center py-24">
         <h2 className="text-3xl font-bold pb-2 px-4">Áreas de Atuação</h2>
-        <p>
-          Na Gonçalves & Cordeiro Guatimosim, somos apaixonados por justiça e{" "}
-          <br /> dedicados a uma ampla gama de áreas legais.
-        </p>
+
         <div className="space-y-8 pt-12 px-4">
           <CardArea img={Civil} title={"CONTENCIOSO CÍVEL"}>
-            <li>
+            <li className="text-justify">
               Trabalhos jurídicos especializados em todos e quaisquer assuntos
               envolvendo o direito civil, tais como a elaboração e discussão
               envolvendo contratos, pareceres, usucapião, discussões envolvendo
@@ -27,29 +24,29 @@ export function AreasTrabalho() {
             </li>
           </CardArea>
           <CardArea img={Trabalhista} title={"CONTENCIOSO TRABALHISTA"}>
-            <li>
+            <li className="text-justify">
               Assessoria a empresas e empregadores no que tange ao atendimento
               dos deveres trabalhistas de seus funcionários e colaboradores, bem
               como sua defesa em contenciosos judiciais envolvendo discussões
               empregados x empregador;
             </li>
-            <li>
+            <li className="text-justify">
               Atuação em reclamações trabalhistas envolvendo direitos do
               trabalhador perante os empregadores em geral;
             </li>
-            <li>
+            <li className="text-justify">
               Atuação em negociações envolvendo negociações e dissídios
               coletivos, etc.
             </li>
           </CardArea>
           <CardArea img={Previdencia} title={"CONTENCIOSO PREVIDENCIÁRIO "}>
-            <li>
+            <li className="text-justify">
               Assessoria jurídica envolvendo a discussão de direitos dos
               segurados (ou não) do INSS, no que se refere aos seus legítimos
               direitos de aposentação, ou revisão de aposentadorias já
               concedidas;
             </li>
-            <li>
+            <li className="text-justify">
               Concessão de benefícios previdenciários legalmente previstos, tais
               como: BPC (Benefício de Prestação Continuada), Auxílio-doença,
               pensão alimentícia, etc.
@@ -59,14 +56,14 @@ export function AreasTrabalho() {
             img={Administrativo}
             title={"CONTENCIOSO E DIREITO ADMINISTRATIVO "}
           >
-            <li>
+            <li className="text-justify">
               Atuação em defesa dos direitos de servidores públicos municipais,
               estaduais e federais, seja no âmbito administrativo ou judicial,
               em todo o amplo espectro que envolva sua atuação funcional, tais
               como: quinquênios, férias-prêmio, horas extras, adicionais e
               reajustes anuais não concedidos, etc;
             </li>
-            <li>
+            <li className="text-justify">
               Defesas administrativas junto à Corregedorias ou Justiça,
               envolvendo imputação de ilícitos administrativos praticados, etc.
             </li>
@@ -75,7 +72,7 @@ export function AreasTrabalho() {
             img={Consumidor}
             title={"CONTENCIOSO E DIREITO DO CONSUMIDOR "}
           >
-            <li>
+            <li className="text-justify">
               O Escritório está apto para assessorar e defender juridicamente
               nos órgãos administrativos ou judiciais onde se discutam o direito
               do consumidor x os direitos previstos no Código de Defesa do
@@ -87,7 +84,7 @@ export function AreasTrabalho() {
             img={Imobiliario}
             title={"CONTENCIOSO E DIREITO IMOBILIARIO "}
           >
-            <li>
+            <li className="text-justify">
               Assessoria em elaboração de contratos imobiliários de compra e
               venda e locação de imóveis, atuação em áreas envolvendo discussões
               de aluguéis, despejos, revisão de valores, etc.
@@ -97,7 +94,7 @@ export function AreasTrabalho() {
             img={Tributario}
             title={"CONTENCIOSO E  DIREITO TRIBUTÁRIO "}
           >
-            <li>
+            <li className="text-justify">
               Atuação ampla no espectro do direito tributário, seja no âmbito
               municipal (IPTU/ISS), sno àmbito estadual (ICMS/ITCMD/IPVA), ou no
               âmbito federal, envolvendo tributos como IR, Cofins, CSLL, IPI,

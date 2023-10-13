@@ -16,7 +16,7 @@ export function CardConceitos() {
           </svg>
           <h3>Compromisso</h3>
         </div>
-        <p className="text-xs">
+        <p className="text-xs text-justify">
           Comprometidos com a busca incansável pela justiça, defendemos os
           direitos com paixão e determinação.
         </p>
@@ -35,7 +35,7 @@ export function CardConceitos() {
           </svg>
           <h3>Profissionalismo</h3>
         </div>
-        <p className="text-xs">
+        <p className="text-xs text-justify">
           Nossa expertise e profissionalismo garantem serviços jurídicos de alta
           qualidade, baseados em conhecimento sólido e atualizado.
         </p>
@@ -54,7 +54,7 @@ export function CardConceitos() {
           </svg>
           <h3>Foco e Resultados</h3>
         </div>
-        <p className="text-xs">
+        <p className="text-xs text-justify">
           Colocamos nossos clientes em primeiro lugar, trabalhando
           incansavelmente para alcançar resultados positivos e satisfatórios.
         </p>

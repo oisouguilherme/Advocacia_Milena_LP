@@ -12,7 +12,8 @@ export function Footer() {
           <div className="flex flex-col gap-3 sm:w-80">
             <h2 className="font-bold">Localização</h2>
             <p className="text-sm">
-              R. Vereda 50 apto. 504. Vila da Serra. Nova Lima
+              R. Vereda, 50, sala 504, Vila da Serra. <br /> Nova Lima-MG,
+              34006-077
             </p>
           </div>
           <div className="flex flex-col gap-3">

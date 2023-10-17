@@ -19,7 +19,7 @@ export function FicouComDuvida() {
             Ficou alguma dúvida?
           </h2>
           <p className="py-6 sm:text-lg text-zinc-800">
-            Para melhor atende-ló entre em contato conosco
+            Para melhor atende-lô entre em contato conosco
           </p>
           <Link
             href={"https://wa.me/5531984780647"}

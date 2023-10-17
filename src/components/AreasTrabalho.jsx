@@ -15,7 +15,7 @@ export function AreasTrabalho() {
         <h2 className="text-3xl font-bold pb-2 px-4">Áreas de Atuação</h2>
 
         <div className="space-y-8 pt-12 px-4">
-          <CardArea img={Civil} title={"CONTENCIOSO CÍVEL"}>
+          <CardArea img={Civil} title={"CÍVEL"}>
             <li className="text-justify">
               Trabalhos jurídicos especializados em todos e quaisquer assuntos
               envolvendo o direito civil, tais como a elaboração e discussão
@@ -23,7 +23,7 @@ export function AreasTrabalho() {
               propriedade de bens móveis e imóveis, inventários, etc.
             </li>
           </CardArea>
-          <CardArea img={Trabalhista} title={"CONTENCIOSO TRABALHISTA"}>
+          <CardArea img={Trabalhista} title={"TRABALHISTA"}>
             <li className="text-justify">
               Assessoria a empresas e empregadores no que tange ao atendimento
               dos deveres trabalhistas de seus funcionários e colaboradores, bem
@@ -35,11 +35,10 @@ export function AreasTrabalho() {
               trabalhador perante os empregadores em geral;
             </li>
             <li className="text-justify">
-              Atuação em negociações envolvendo negociações e dissídios
-              coletivos, etc.
+              Atuação em negociações envolvendo dissídios coletivos, etc.
             </li>
           </CardArea>
-          <CardArea img={Previdencia} title={"CONTENCIOSO PREVIDENCIÁRIO "}>
+          <CardArea img={Previdencia} title={"PREVIDENCIÁRIO "}>
             <li className="text-justify">
               Assessoria jurídica envolvendo a discussão de direitos dos
               segurados (ou não) do INSS, no que se refere aos seus legítimos
@@ -52,10 +51,7 @@ export function AreasTrabalho() {
               pensão alimentícia, etc.
             </li>
           </CardArea>
-          <CardArea
-            img={Administrativo}
-            title={"CONTENCIOSO E DIREITO ADMINISTRATIVO "}
-          >
+          <CardArea img={Administrativo} title={"DIREITO ADMINISTRATIVO "}>
             <li className="text-justify">
               Atuação em defesa dos direitos de servidores públicos municipais,
               estaduais e federais, seja no âmbito administrativo ou judicial,
@@ -68,10 +64,7 @@ export function AreasTrabalho() {
               envolvendo imputação de ilícitos administrativos praticados, etc.
             </li>
           </CardArea>
-          <CardArea
-            img={Consumidor}
-            title={"CONTENCIOSO E DIREITO DO CONSUMIDOR "}
-          >
+          <CardArea img={Consumidor} title={"DIREITO DO CONSUMIDOR "}>
             <li className="text-justify">
               O Escritório está apto para assessorar e defender juridicamente
               nos órgãos administrativos ou judiciais onde se discutam o direito
@@ -80,20 +73,14 @@ export function AreasTrabalho() {
               alguma forma precisar fazer valer seu direito;
             </li>
           </CardArea>
-          <CardArea
-            img={Imobiliario}
-            title={"CONTENCIOSO E DIREITO IMOBILIARIO "}
-          >
+          <CardArea img={Imobiliario} title={"DIREITO IMOBILIARIO "}>
             <li className="text-justify">
               Assessoria em elaboração de contratos imobiliários de compra e
               venda e locação de imóveis, atuação em áreas envolvendo discussões
               de aluguéis, despejos, revisão de valores, etc.
             </li>
           </CardArea>
-          <CardArea
-            img={Tributario}
-            title={"CONTENCIOSO E  DIREITO TRIBUTÁRIO "}
-          >
+          <CardArea img={Tributario} title={"DIREITO TRIBUTÁRIO "}>
             <li className="text-justify">
               Atuação ampla no espectro do direito tributário, seja no âmbito
               municipal (IPTU/ISS), sno àmbito estadual (ICMS/ITCMD/IPVA), ou no

@@ -73,7 +73,7 @@ export function AreasTrabalho() {
               alguma forma precisar fazer valer seu direito;
             </li>
           </CardArea>
-          <CardArea img={Imobiliario} title={"DIREITO IMOBILIARIO "}>
+          <CardArea img={Imobiliario} title={"DIREITO IMOBILIÁRIO"}>
             <li className="text-justify">
               Assessoria em elaboração de contratos imobiliários de compra e
               venda e locação de imóveis, atuação em áreas envolvendo discussões
